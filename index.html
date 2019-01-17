@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Displaying and Inputing Data project </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="sing-in-content">
+        <div class="sign-in-text">
+          <div> Already have an Intuit account? </div>
+          <a href="" class="forgot-link"> I forgot my user ID or Password </a>
+        </div>
+          <button type="button" name="button" class="sign-in-btn">
+            <span class="lock"></span>
+            Sign In
+          </button>
+      </div>
+    </header>
+
+    <!-- Title section -->
+    <section id="title">
+      <div class="title-container">
+        <a class="title"></a>
+      </div>
+
+      <ul class="logos">
+        <li> <span class="mint-icon"> mint </span> </li>
+        <li> <span class="quickbooks-icon"> quickbooks </span> </li>
+        <li> <span class="turbotax-icon"> turbotax </span> </li>
+      </ul>
+    </section>
+
+    <!-- Form section -->
+    <section>
+     <form class="form" action="index.html" method="post">
+       <div class="intro">
+         <span> One Account. </span><br>
+         <span> Everything Intuit. </span>
+         <p> Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a> </p>
+       </div>
+
+       <label for="email"> Email address
+         <input id="email" type="email" name="email" value="">
+       </label>
+         <span class="breaks"></span>
+       <label for="phone"> Phone (recommended)
+         <input id="phone" type="tel" name="phone" value="">
+       </label>
+       <span class="breaks">Standard call, messaging or data rates may apply.</span>
+       <span class="breaks"></span>
+       <label for="password"> Password
+         <input id="password" type="password" name="password" value="">
+       </label>
+       <span class="breaks"></span>
+       <label for="confirm_password"> Confirm Password
+         <input id="confirm_password" type="password" name="confirm_password" value="">
+       </label>
+
+       <button id="crt_btn" type="submit" name="create_account" value="Create Account">
+         <span class="lock"></span>
+         Create account</button>
+         <div class="agreement">
+           <span> By clicking Create Account, you agree to our
+             <br>
+             <a href="#"> License Agreement </a> and have read and acknowledge<br> our <a href="#"> Privacy Statement </a>.
+          </span>
+         </div>
+
+       <div class="terms">
+         Invisible reCAPTCHA by Google <a href="#"> Privacy Policy </a> and <a href="#"> Terms of Use </a>.
+       </div>
+     </form>
+     <!--FOOTER -->
+
+   </section>
+   <footer>
+     <ul id="links">
+       <li> <a href="#"> Legal </a> </li>
+       <li> <a href="#"> Privacy </a> </li>
+       <li> <a href="#"> Security </a> </li>
+     </ul>
+     <div class="footer">
+       <span> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span><br>
+         <span>Terms and conditions, features, support, pricing, and service options subject to change without notice. </span>
+     </div>
+
+   </footer>
+  </body>
+</html>
