@@ -1,4 +1,4 @@
-# New York Times Page Project
+# Intuit Login Form Page Project
 The main goal of this project is improve the skills on HTML and CSS
 
 ## Concepts applied here
